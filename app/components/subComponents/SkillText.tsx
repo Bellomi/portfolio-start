@@ -30,7 +30,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="cursive text-[30px] text-gray-200 mb-10 mt-[10px] text-center"
       >
-        Build tomorrow's apps today
+        {`Build tomorrow's apps today`}
       </motion.div>
     </div>
   );
