@@ -45,7 +45,7 @@ const HeroContent = () => {
         </motion.div>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto lg:max-w-full"
+          className="flex flex-col items-center justify-center gap-6 py-10 mt-6 text-6xl font-bold text-white max-w-[600px] h-auto lg:max-w-full"
         >
           <span>
             Persuit of
@@ -59,7 +59,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 text-justify max-w-[600px]"
+          className="text-lg text-gray-400 my-5  items-center justify-center text-justify max-w-[600px]"
         >
           I&apos;m a Frontend Software Engineer with experience in Website,
           Mobile, and Software development. Check out my projects and skills.

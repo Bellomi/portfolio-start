@@ -28,7 +28,7 @@ const Card = ({ image, title, description, link }: CardProps) => {
       initial="hidden"
       animate="visible"
       id="card-container"
-      className="sm:p-10 p-10 gap-10 w-[500px] h-[320px] "
+      className="sm:p-10 p-10 gap-10 items-center justify-center w-[450px] h-[320px] "
     >
       <motion.div variants={slideInFromRight(0.8)} className=" w-full h-full">
         <Image
@@ -37,6 +37,7 @@ const Card = ({ image, title, description, link }: CardProps) => {
           className="bg-black w-full h-full mt-5 mb-10 rounded-xl object-cover"
           width={1000}
           height={1000}
+          quality={100}
           /* @ts-ignore */
           style={{ transform: hoverImage.transform }}
         />
