@@ -24,7 +24,11 @@ const SocialLink = ({ label, icon, href }: LinkProps) => (
 
 const Footer = () => {
   return (
-    <div className="h-full p-10 bg-transparent mt-20 text-gray-200 shadow-lg z-10">
+    <section
+      id="skills"
+      className="flex z-10 flex-col items-center bg-transparent justify-center gap-3 h-full relative overflow-hidden pb-10 py-20"
+      style={{ transform: "scale(0.9" }}
+    >
       <div className="w-full mt-20 h-full flex sm:flex-row flex-col items-center justify-around flex-wrap">
         {/* Socials */}
         <div className="min-w-[150px] h-auto gap-5 flex flex-col items-center justify-start">
@@ -59,7 +63,7 @@ const Footer = () => {
       <div className="mt-5 text-15 text-center">
         &copy; Web3Ride Dev 2024. All rights reserved.
       </div>
-    </div>
+    </section>
   );
 };
 
